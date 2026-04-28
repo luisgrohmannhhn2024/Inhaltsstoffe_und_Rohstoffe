@@ -17,7 +17,7 @@ cp .env.example .env
 GROQ_API_KEY=
 ```
 
-### 4) Service starten
+### 4) Service in/mit Docker starten
 ```bash
 # 1) In Projektverzeichnis navigieren
 cd /Inhaltsstoffe_und_Rohstoffe
