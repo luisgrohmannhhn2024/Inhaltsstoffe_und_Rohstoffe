@@ -20,7 +20,7 @@ export function createApp(): express.Application {
       },
       servers: [{ url: "http://localhost:3000" }],
     },
-    apis: [path.join(__dirname, "controllers/*.ts")],
+    apis: [path.join(__dirname, "controllers/*.ts"), path.join(__dirname, "controllers/*.js")],
   });
 
   app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
