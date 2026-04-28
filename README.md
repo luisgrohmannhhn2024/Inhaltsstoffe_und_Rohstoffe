@@ -372,10 +372,3 @@ Der Service läuft als eigenständiger Docker-Container im Backend-Netz und ist 
 docker build -t ingredient-api .
 docker run -e GROQ_API_KEY=xxx -p 3000:3000 ingredient-api
 ```
-
-**Nächste Schritte:**
-
-- [ ] Repo-Zugriff für das Backend-Team einrichten
-- [ ] `GROQ_API_KEY` an das Backend-Team übergeben
-- [ ] URL des laufenden Containers abstimmen (interner Hostname / Port)
-- [ ] Fehlerverhalten bei 503 klären – Retry-Logik liegt beim Backend
