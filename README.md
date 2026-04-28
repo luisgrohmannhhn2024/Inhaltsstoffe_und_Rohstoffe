@@ -2,7 +2,7 @@
 
 ## Anleitung
 
-### 1) Docker installieren
+### 1) Docker installieren und starten
 
 ### 2) Groq API Key erstellen ([console.groq.com](https://console.groq.com))
 
